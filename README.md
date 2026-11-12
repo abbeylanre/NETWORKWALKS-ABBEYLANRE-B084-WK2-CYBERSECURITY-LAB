@@ -1,2 +1,2 @@
 # NETWORKWALKS-ABBEYLANRE-B084-WK2-CYBERSECURITY-LAB
-A documentation of my Networkwalks  Cybersecurity journey, showcasing hands-on practical exercises,cybersecurity projects, networking configurations, Linux administration, security tools, penetration testing and technical skill development.
+Documentation of Week 2 Cybersecurity Internship activities covering Kali Linux footprinting tools, Maltego, theHarveter, Zenmap network scanning, and final project reporting.
