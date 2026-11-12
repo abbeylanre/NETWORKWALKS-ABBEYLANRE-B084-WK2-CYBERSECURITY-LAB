@@ -61,8 +61,9 @@ Analysis: The search engine and utility transform successfully correlated the ta
 Plaintext
 Screenshots/
 ├── maltego-installation.png
-├── maltego-graph-domain.png
-└── maltego-email-results.png
+├── maltego-registration.png
+├── maltego-domain.png
+└── maltego-email-result.png
 Maltego Setup & Registration:
 
 Target Domain Entity Added:
