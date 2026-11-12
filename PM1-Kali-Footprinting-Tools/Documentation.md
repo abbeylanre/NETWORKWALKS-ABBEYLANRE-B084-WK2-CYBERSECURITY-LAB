@@ -47,6 +47,7 @@ Registrant Org: Domains By Proxy, LLC (Privacy Protected)
 Name Servers: NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM, NS29.DOMAINCONTROL.COM, NS30.DOMAINCONTROL.COM
 
 Screenshots & Evidence:
+![whois Command Output](./Screenshots/whois-output.png)
 
 Observations: The domain uses a privacy protection service (Domains By Proxy) to obscure the real owner's identity. It is hosted via HostGator infrastructure with GoDaddy handling registrar management.
 
@@ -74,6 +75,7 @@ Framework & Library: Bootstrap 7.1.4, jQuery 3.7.1, Google Tag Manager
 Disclosed Contact: info@networkwalks.com
 
 Screenshots & Evidence:
+![whatweb Command Output](./Screenshots/whatweb-output.png)
 
 Observations: The application explicitly exposes its exact WordPress and plugin version numbers, which can be cross-referenced against vulnerability databases for outdated components.
 
@@ -95,6 +97,7 @@ DNS Server Queried: 8.8.8.8 (Google Public DNS)
 Resolved A Record (IP): 192.232.216.135
 
 Screenshots & Evidence:
+![nslookup Command Output](./Screenshots/nslookup-output.png)
 
 Observations: Confirmed the primary public-facing IPv4 address mapped to the root domain via an external recursive resolver.
 
@@ -120,6 +123,7 @@ Set-Cookie: __wpdm_client=...; path=/; domain=networkwalks.com; secure; HttpOnly
 API Link Header: Exposes WordPress REST API route (/wp-json/)
 
 Screenshots & Evidence:
+![curl Command Output](./Screenshots/curl-output.png)
 
 Observations: The cookie correctly implements security flags (secure and HttpOnly), mitigating cross-site scripting (XSS) theft vectors. However, the REST API disclosure indicates potential endpoint exposure.
 
@@ -141,6 +145,7 @@ WAF Identified: ModSecurity (SpiderLabs)
 Request Count: 2 requests sent
 
 Screenshots & Evidence:
+![wafw00f Command Output](./Screenshots/wafw00f-output.png)
 
 Observations: The site is actively protected by a ModSecurity WAF instance, which will inspect incoming HTTP traffic anomalies and potentially block automated web vulnerability scanning tools.
 
@@ -168,17 +173,33 @@ SPF Record: v=spf1 +a +mx +ip4:50.87.144.87 +include:websitewelcome.com ~all
 TXT Verification: Includes Google Site Verification token (rr04eRmqHoWY3XemnizDNVK4q75X-Ij-mjgEeg-UsYI)
 
 Screenshots & Evidence:
+![dnsrecon Command Output](./Screenshots/dnsrecon-output.png)
 
 Observations: The DNS enumeration successfully uncovered specific BIND versions running on the nameservers, internal mail server routing details, and email security policy configuration (SPF).
 
 5. Findings and Analysis
-(Summary of gathered information: The target infrastructure runs on HostGator hosting nodes backed by an Apache web server and ModSecurity WAF. It relies on a WordPress core build exposing application versions, alongside properly scoped SPF email records).
+The target infrastructure (networkwalks.com) resolves to IPv4 address 192.232.216.135, hosted on HostGator infrastructure with GoDaddy handling domain registration under WHOIS privacy protection. The web stack runs Apache serving a WordPress CMS instance (7.1.4) integrated with Bootstrap and jQuery. Security mechanisms include active ModSecurity WAF protection and HttpOnly/secure flags set on session cookies. However, the site exposes exact software and plugin versions alongside REST API endpoints (/wp-json/), providing actionable intelligence for targeted CVE checks.
 
 6. Challenges Encountered
-(Document any rate limits, blocks from the ModSecurity WAF, or connectivity challenges experienced during testing).
+During execution, active scanning tools like wafw00f and whatweb required careful rate selection to prevent triggering ModSecurity WAF rate-limiting or IP blocking mechanisms. Additionally, domain administrative details were completely masked by WHOIS privacy services, limiting passive OSINT gathering regarding personnel.
 
 7. Lessons Learned
-(Key takeaways regarding how active fingerprinting tools interact with defensive mechanisms like WAFs compared to passive queries like WHOIS).
+Passive footprinting (whois, nslookup) provides foundational target data without triggering defensive alerts or exposing testing IP addresses.
+
+Active footprinting (wafw00f, whatweb, curl) reveals precise tech-stack data but interacts directly with defensive controls like WAFs.
+
+Defensive posture validation (e.g., verifying cookie security flags and SPF records) is a critical step in assessing overall web application exposure.
 
 8. Conclusion
-(Final remarks on the overall attack surface posture of networkwalks.com based on the tool results).
+The footprinting exercise against networkwalks.com successfully mapped the domain's external attack surface across network, DNS, and application layers. The deployment of ModSecurity WAF and properly configured cookie flags demonstrates foundational security controls, though version disclosures across the WordPress stack represent areas for security hardening.
+
+## 👤 Author Metadata
+
+* **Name:** Abiodun Omotosho
+* **Program:** Networkwalks Cybersecurity Internship
+* **Focus Areas:** Cybersecurity | Network Security | Traffic Analysis
+* **LinkedIn:** [Abiodun Omotosho Profile](https://www.linkedin.com/in/abiodunomotosho1)
+
+---
+
+*This repository serves as a live record of my technical development, practical achievements, and professional growth in cybersecurity.*
