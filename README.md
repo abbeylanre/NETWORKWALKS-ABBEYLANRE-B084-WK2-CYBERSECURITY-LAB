@@ -12,7 +12,7 @@ This repository documents my practical activities, technical exercises, research
 | Module | Description | Status |
 | :--- | :--- | :---: |
 | **W2-PM1** | Footprinting with Multiple Kali Linux Tools | 🟡 Completed |
-| **W2-PM3** | Maltego-Based Footprinting Attacks | 🟡 Pending |
+| **W2-PM3** | Maltego-Based Footprinting Attacks | 🟡 Completed |
 | **W2-PM4** | theHarvester-Based Footprinting Attacks | 🟡 Pending |
 
 ### Essential Modules
