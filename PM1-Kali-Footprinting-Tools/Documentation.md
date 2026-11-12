@@ -193,11 +193,11 @@ Defensive posture validation (e.g., verifying cookie security flags and SPF reco
 8. Conclusion
 The footprinting exercise against networkwalks.com successfully mapped the domain's external attack surface across network, DNS, and application layers. The deployment of ModSecurity WAF and properly configured cookie flags demonstrates foundational security controls, though version disclosures across the WordPress stack represent areas for security hardening.
 
-## 👤 Author Metadata
+: ## 👤 Author Metadata
 
 * **Name:** Abiodun Omotosho
 * **Program:** Networkwalks Cybersecurity Internship
-* **Focus Areas:** Cybersecurity | Network Security | Traffic Analysis
+* **Focus Areas:** Cybersecurity | Network Security | SOC Analyst | Penetration Tester
 * **LinkedIn:** [Abiodun Omotosho Profile](https://www.linkedin.com/in/abiodunomotosho1)
 
 ---
