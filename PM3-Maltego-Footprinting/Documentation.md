@@ -64,11 +64,29 @@ Screenshots/
 ├── maltego-registration.png
 ├── maltego-domain.png
 └── maltego-email-result.png
+
+
+Maltego Installation:
+
+![maltego installation Output](./Screenshots/maltego-installation.png)
+
+
 Maltego Setup & Registration:
+
+![maltego registration Output](./Screenshots/maltego-registration.png)
+
+
 
 Target Domain Entity Added:
 
+![maltego domain entity Output](./Screenshots/maltego-domain.png)
+
+
+
 Email Transform Output Graph:
+
+![maltego email transform Output](./Screenshots/maltego-email-result.png)
+
 
 6. Challenges Encountered
 Managing authentication redirection loops between the web browser registration portal and the local Maltego client desktop window.
