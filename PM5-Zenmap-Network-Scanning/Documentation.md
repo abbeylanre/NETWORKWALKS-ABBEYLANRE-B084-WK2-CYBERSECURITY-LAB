@@ -141,9 +141,14 @@ The Zenmap scanning module successfully demonstrated host discovery, hardware ad
 Security Disclaimer
 All scanning activities were conducted strictly for educational purposes within a controlled laboratory environment under written authorization (NW-084-178) in accordance with ethical cybersecurity standards.
 
-👤 Author Metadata
+## 👤 Author Metadata
+
 Name: Abiodun Omotosho
 
-Program: Networkwalks Cybersecurity Internship (Batch B084)
+Program: Networkwalks Cybersecurity Internship
 
-Focus: Hands-on security assessment, practical achievements, and professional growth in cybersecurity.
+Focus Areas: Cybersecurity | Network Security | SOC Analyst | Penetration Testing
+
+LinkedIn: Abiodun Omotosho Profile
+
+This repository serves as a live record of my technical development, practical achievements, and professional growth in cybersecurity.
