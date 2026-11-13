@@ -61,7 +61,9 @@ Plaintext
 [*] No emails found.
 [*] No people found.
 [*] No hosts found.
+
 Screenshots & Evidence:
+![theHarvester -l 1000 -b baidu Command Output](./Screenshots/harvester-1000-output.png)
 
 Observations: Querying regional search engines like Baidu for a major Western enterprise (microsoft.com) yielded zero results due to geographic indexing limitations and anti-scraping controls.
 
@@ -97,6 +99,8 @@ Windvane (DNS Fallback): Executed subdomain pattern searches when API services w
 Additional Public Sources Queried: Chaos, Certspotter, Baidu, DuckDuckGo, CRT.sh, Hackertarget, Commoncrawl, LeakIX, Mojeek, Otx, Rapiddns, Robtex, ShodanInternetDB, Subdomaincenter, Thc, Threatcrowd, Subdomainfinderc99, Urlscan, and Yahoo.
 
 Screenshots & Evidence:
+![theHarvester -l 50 -b all Command Output](./Screenshots/harvester-50-output.png)
+
 
 Observations: Running theHarvester against all sources highlights the value of unauthenticated public repositories—such as Certificate Transparency logs (crt.sh), DNS fallback patterns, and breach telemetry aggregators like Hudson Rock—when commercial API keys are unconfigured.
 
