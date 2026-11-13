@@ -197,7 +197,7 @@ The footprinting exercise against networkwalks.com successfully mapped the domai
 
 * **Name:** Abiodun Omotosho
 * **Program:** Networkwalks Cybersecurity Internship
-* **Focus Areas:** Cybersecurity | Network Security | SOC Analyst | Penetration Tester
+* **Focus Areas:** Cybersecurity | Network Security | SOC Analyst | Penetration Testing
 * **LinkedIn:** [Abiodun Omotosho Profile](https://www.linkedin.com/in/abiodunomotosho1)
 
 ---
