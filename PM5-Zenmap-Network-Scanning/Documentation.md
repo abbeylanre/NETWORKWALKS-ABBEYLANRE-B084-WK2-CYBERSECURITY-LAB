@@ -64,6 +64,8 @@ Default Gateway: 172.20.10.1
 Local MAC Address: E4-70-B8-81-BE-15
 
 Screenshots & Evidence:
+ ![ipconfig /all](./Screenshots/ipconfig.png)
+
 
 Task 3: Subnet Live Host Discovery Scan
 Purpose: Perform a non-intrusive host discovery scan across the 172.20.10.0 network range to identify all operational network endpoints.
@@ -79,6 +81,8 @@ Generated Nmap Command:
 Bash
 nmap -sn 172.20.10.0/28
 Screenshots & Evidence:
+ ![target range](./Screenshots/zenmap-target.png)
+
 
 Tasks 4, 5 & 6: Live Host Enumeration & Hardware Addressing
 The scan successfully enumerated active endpoints across the target subnet. Findings are itemized below:
@@ -91,6 +95,8 @@ Host #	IPv4 Address	MAC Address	Interface / Role & Open Ports
 Host 1	172.20.10.1	86:AD:8D:E8:5D:64	Default Gateway / Router (21/tcp ftp, 53/tcp domain, 49152/tcp)
 Host 2	172.20.10.3	E4-70-B8-81-BE-15	Local Host / Tester PC (135/tcp msrpc, 139/tcp netbios-ssn, 445/tcp microsoft-ds)
 Screenshots & Evidence:
+ ![ip snd mac address mapping](./Screenshots/zenmap-mac-mapping.png)
+
 
 Task 7: Network Topology Render & PDF Export
 Purpose: Generate a graphical topology representation of discovered subnet endpoints and export the diagram for report integration.
@@ -106,6 +112,7 @@ Selected Save Graphic and chose PDF format.
 Saved the exported graphic file (subnet-topology.pdf) to the Desktop.
 
 Screenshots & Evidence:
+ ![Zenmap topology](./Screenshots/zenmap-topology.png)
 
 5. Findings and Analysis
 Subnet Density: Across the scanned IP range (256 total addresses scanned, 14 usable host addresses in the active /28 subnet), exactly 2 active nodes were detected (172.20.10.1 and 172.20.10.3).
