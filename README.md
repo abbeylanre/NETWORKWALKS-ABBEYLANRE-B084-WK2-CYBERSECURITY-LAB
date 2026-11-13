@@ -19,7 +19,7 @@ This repository documents my practical activities, technical exercises, research
 
 | Module | Description | Status |
 | :--- | :--- | :---: |
-| **W2-PM5** | Zenmap-Based Network Scanning | 🟡 Pending |
+| **W2-PM5** | Zenmap-Based Network Scanning | 🟡 Completed |
 | **W2-PM-FINAL** | Comprehensive Project Report | 🟡 Pending |
 
 ---
