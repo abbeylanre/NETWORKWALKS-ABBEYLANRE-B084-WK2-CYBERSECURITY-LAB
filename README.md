@@ -22,15 +22,15 @@ The objective of this milestone was to simulate the initial phases of an ethical
 | Module | Title & Focus Area | Tools Used | Status | Documentation |
 | :--- | :--- | :--- | :---: | :--- |
 | **W2-PM1** | Footprinting with Multiple Kali Linux Tools | `whois`, `whatweb`, `nslookup`, `curl`, `wafw00f`, `dnsrecon` | ✅ Completed | [View Folder](PM1-Kali-Footprinting-Tools) |
-| **W2-PM3** | Maltego-Based Infrastructure Footprinting | Maltego CE (Transforms & Link Analysis) | ✅ Completed | [View Folder](./W2-PM3/) |
-| **W2-PM4** | theHarvester-Based OSINT Enumeration | `theHarvester` | ✅ Completed | [View Folder](./W2-PM4/) |
+| **W2-PM3** | Maltego-Based Infrastructure Footprinting | Maltego CE (Transforms & Link Analysis) | ✅ Completed | [View Folder](PM3-Maltego-Footprinting) |
+| **W2-PM4** | theHarvester-Based OSINT Enumeration | `theHarvester` | ✅ Completed | [View Folder](PM4-theHarvester-Footprinting) |
 
 ### 🔸 Essential Modules (Phase 2: Scanning & Final Reporting)
 
 | Module | Title & Focus Area | Tools Used | Status | Documentation |
 | :--- | :--- | :--- | :---: | :--- |
-| **W2-PM5** | Zenmap-Based Network Scanning & Topology | Zenmap (Nmap 7.993), `ipconfig /all` | ✅ Completed | [View Folder](./W2-PM5/) |
-| **W2-PM-FINAL** | Comprehensive Week 2 Penetration Testing Report | All Week 2 Reconnaissance & Scanning Tools | ✅ Completed | [View Report](./W2-PM-FINAL/) |
+| **W2-PM5** | Zenmap-Based Network Scanning & Topology | Zenmap (Nmap 7.993), `ipconfig /all` | ✅ Completed | [View Folder](PM5-Zenmap-Network-Scanning) |
+| **W2-PM-FINAL** | Comprehensive Week 2 Penetration Testing Report | All Week 2 Reconnaissance & Scanning Tools | ✅ Completed | [View Report](PMfinal-Pentesting-Report) |
 
 ---
 
