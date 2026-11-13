@@ -108,7 +108,7 @@ All reconnaissance activities were conducted for education purposes only using a
 
 * **Name:** Abiodun Omotosho
 * **Program:** Networkwalks Cybersecurity Internship
-* **Focus Areas:** Cybersecurity | Network Security | SOC Analyst | Penetration Tester
+* **Focus Areas:** Cybersecurity | Network Security | SOC Analyst | Penetration Testing
 * **LinkedIn:** [Abiodun Omotosho Profile](https://www.linkedin.com/in/abiodunomotosho1)
 
 This repository serves as a live record of my technical development, practical achievements, and professional growth in cybersecurity.
