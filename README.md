@@ -21,7 +21,7 @@ The objective of this milestone was to simulate the initial phases of an ethical
 
 | Module | Title & Focus Area | Tools Used | Status | Documentation |
 | :--- | :--- | :--- | :---: | :--- |
-| **W2-PM1** | Footprinting with Multiple Kali Linux Tools | `whois`, `whatweb`, `nslookup`, `curl`, `wafw00f`, `dnsrecon` | ✅ Completed | [View Folder](./W2-PM1/) |
+| **W2-PM1** | Footprinting with Multiple Kali Linux Tools | `whois`, `whatweb`, `nslookup`, `curl`, `wafw00f`, `dnsrecon` | ✅ Completed | [View Folder](PM1-Kali-Footprinting-Tools) |
 | **W2-PM3** | Maltego-Based Infrastructure Footprinting | Maltego CE (Transforms & Link Analysis) | ✅ Completed | [View Folder](./W2-PM3/) |
 | **W2-PM4** | theHarvester-Based OSINT Enumeration | `theHarvester` | ✅ Completed | [View Folder](./W2-PM4/) |
 
