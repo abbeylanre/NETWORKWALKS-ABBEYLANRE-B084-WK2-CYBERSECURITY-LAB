@@ -39,7 +39,7 @@ This project explores network scanning and host discovery using **Zenmap**, the 
   3. Completed installation and launched the Zenmap GUI application interface.
 
 * **Screenshots & Evidence:**  
-  ![Zenmap Installation](./Screenshots/01-zenmap-installation.png)
+  ![Zenmap Installation](./Screenshots/zenmap-installation.png)
 
 ---
 
