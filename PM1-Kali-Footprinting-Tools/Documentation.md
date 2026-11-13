@@ -173,7 +173,7 @@ SPF Record: v=spf1 +a +mx +ip4:50.87.144.87 +include:websitewelcome.com ~all
 TXT Verification: Includes Google Site Verification token (rr04eRmqHoWY3XemnizDNVK4q75X-Ij-mjgEeg-UsYI)
 
 Screenshots & Evidence:
-![dnsrecon Command Output](./Screenshots/dnsrecon-output.png)
+![dnsrecon Command Output](./Screenshots/dnnsrecon-output.png)
 
 Observations: The DNS enumeration successfully uncovered specific BIND versions running on the nameservers, internal mail server routing details, and email security policy configuration (SPF).
 
